@@ -1,0 +1,20 @@
+{
+  "name": "@counted/character-rig",
+  "version": "0.1.0",
+  "description": "Skeletal rig: bones, IK two-bone solver, blend trees, walk cycle parameters.",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  },
+  "license": "MIT"
+}
